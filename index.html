@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="img/webp" href="bikes/bike6.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="circle"></div>
+        <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href=""> About</a></li>
+            <li><a href=""> Sales</a></li>
+            <li><a href=""> Contact Us</a></li>
+        </ul>
+        <div class="bikes">
+            <li><img src="bikes/bike1.png" alt="bike" onclick="big('bikes/bike1.png');bg('linear-gradient(70deg,black,green)')"></li>
+            <li><img src="bikes/bike7.png" alt="bike" onclick="big('bikes/bike7.png');bg('linear-gradient(50deg,orange,red)')"></li>
+            <li><img src="bikes/bike6.webp" alt="bike" onclick="big('bikes/bike6.webp');bg('linear-gradient(40deg,white,black)')"></li>
+        </div>
+        <div class="bigbikes">
+            <img src="bikes/bike6.webp" alt="" class="big">
+        </div>
+        <div class="content">
+            <p>&#x1F525;Let's ride&#x1F525;</p><br>
+            <h1>Never Give Up</h1><br><br>
+            <h5>&#x1F60E;For Bike Lovers & Bike Riders&#x1F49D;</h5>
+        </div>
+    </div>
+    <script>
+        function big(img){
+            document.querySelector('.big').src=img;
+        }
+        function bg(background){
+            const bg=document.querySelector('.nav');
+            bg.style.background=background;
+        }
+    </script>
+</body>
+</html>
