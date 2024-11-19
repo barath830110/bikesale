@@ -94,7 +94,7 @@
     background-color: #e5e5e5;
     clip-path: circle(520px at left 300px);
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:360px){
 .nav li{
     padding: 10px;
     margin-right: 5px;
@@ -110,12 +110,12 @@
     left: 10%;
 }
 .bikes img{
-    max-width: 100px;
+    max-width: 80px;
 }
 .bikes{
     position: relative;
     top: 130px;
-    left: 20px;
+    left: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -127,14 +127,14 @@
     transform: translatey(30px);
 }
 .bigbikes img{
-    max-width: 250px;
+    max-width: 210px;
     top: 45%;
     left: 20%;
 
 }
 .content{
-    top: 65%;
-    right: 120px;
+    top: 70%;
+    right: 50px;
 }
 .content p{
     font-size: 15px;
