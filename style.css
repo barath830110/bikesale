@@ -101,18 +101,16 @@
     font-weight: 100;
     font-size:  13px;
 }
+.nav ul li a{
+    color: white;
+}
 .nav ul{
     position: absolute;
     top:5%;
-    left: 2%;
+    left: 10%;
 }
-.circle{
-    display: none;
-}
-
-
 .bikes img{
-    max-width: 50px;
+    max-width: 100px;
 }
 .bikes{
     position: relative;
@@ -129,13 +127,14 @@
     transform: translatey(30px);
 }
 .bigbikes img{
-    max-width: 200px;
+    max-width: 250px;
     top: 45%;
     left: 20%;
 
 }
 .content{
     top: 65%;
+    right: 120px;
 }
 .content p{
     font-size: 15px;
@@ -149,7 +148,15 @@
     font-size: 10px;
     margin-left: -220px;
 }
-    
+.circle{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    right: 20px;
+    height: 100%;
+    background-color: #e5e5e5;
+    clip-path: circle(150px at center 150px);
+}   
 }
 
 
