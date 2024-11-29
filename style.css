@@ -94,12 +94,12 @@
     background-color: #e5e5e5;
     clip-path: circle(520px at left 300px);
 }
-@media screen and (max-width:360px){
+@media screen and (max-width:499px){
 .nav li{
     padding: 10px;
     margin-right: 5px;
     font-weight: 100;
-    font-size:  15px;
+    font-size:  10px;
 }
 .nav ul li a{
     color: white;
@@ -158,7 +158,70 @@
     clip-path: circle(150px at center 150px);
 }   
 }
-
+@media screen and (min-width:500px) and (max-width:900px){
+    .nav li{
+        padding: 10px;
+        margin-right: 5px;
+        font-weight: 100;
+        font-size:  25px;
+    }
+    .nav ul li a{
+        color: white;
+    }
+    .nav ul{
+        position: absolute;
+        top:5%;
+        left: 10%;
+    }
+    .bikes img{
+        max-width: 100px;
+    }
+    .bikes{
+        position: relative;
+        top: 130px;
+        left: 120px;
+        display: flex;
+        flex-direction: row;
+    }
+    .bikes li{
+        margin-top: 20px;
+    }
+    .bikes li:hover{
+        transition: 1s;
+        transform: translatey(30px);
+    }
+    .bigbikes img{
+        max-width: 310px;
+        top: 45%;
+        left: 20%;
+    
+    }
+    .content{
+        top: 70%;
+        right: 180px;
+    }
+    .content p{
+        font-size: 15px;
+        margin-left: -188px;
+    }
+    .content h1{
+        font-size: 20px;
+        margin-left: -188px;
+    }
+    .content h5{
+        font-size: 10px;
+        margin-left: -220px;
+    }
+    .circle{
+        position: absolute;
+        width: 100%;
+        top: 250px;
+        right: 20px;
+        height: 100%;
+        background-color: #e5e5e5;
+        clip-path: circle(250px at center 250px);
+    }   
+}
 
 
 
